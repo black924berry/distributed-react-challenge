@@ -7,7 +7,7 @@ import LoadingScreen from 'app/components/LoadingScreen';
 
 function RouteProgress(props) {
   NProgress.configure({
-    speed: 500,
+    speed: 100,
     showSpinner: false,
   });
 
