@@ -32,5 +32,16 @@ Inside the project directory run:
 
 - `npm start` - runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## Deployment
+
+Implemented the vercel deployment by using github action.
+
+You must fill these fields to run the deployment pipeline on your repository.
+
+```
+VERCEL_ORG_ID
+VERCEL_PROJECT_ID
+VERCEL_TOKEN
+```
 
 CRA template only support `scripts` and `dependencies` inside generated `package.json`. No `devDependencies` is possible on CRA template for now.
