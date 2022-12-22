@@ -1,0 +1,42 @@
+@import '../../../assets/styles/variables'
+
+// header
+//
+
+// Elements
+// --------------------------------------------------
+
+.app-header__container
+  background: $header-bg
+  color: $menu-text-color
+  width: 100%
+
+.app-header__content  
+  display: flex
+  justify-content: space-between
+  align-items: center  
+  height: 60px
+  width: 1366px
+  margin: 0 auto
+
+.app-header__logo
+  display: flex
+  img
+    width: 150px
+
+.app-header-icon__list
+  display: flex
+
+.app-header-icon-list__item:not(:first-child)
+  display: flex
+  align-items: center
+  margin-left: 46px
+  img
+    max-height: 25px
+  p
+    font-weight: $bold
+  &:hover
+    text-decoration: none
+  .avatar
+    vertical-align: middle
+    border-radius: 50%
